@@ -7,6 +7,7 @@ void MoveServos(){
   long xx = abs(x);
   long yy = abs(y);
   long zz = abs(z);
+  // sample comment
   // Servo 1
   long dxy = sqrt(sq(xx)+sq(yy));
   Serial.print("dxy=");
